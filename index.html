@@ -5,24 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f3ed">
   <title>GK Interior | Interior Designer in Amritsar | Home &amp; Modular Kitchen Design</title>
-  <meta name="description" content="GK Interior is a leading interior designer in Amritsar, Punjab, offering modern home interiors, modular kitchens, wardrobes, bathroom design, false ceilings, and office interiors.">
-  <meta name="keywords" content="interior designer in Amritsar, interior design Amritsar, modular kitchen in Amritsar, home interiors Amritsar, wardrobes Amritsar, false ceiling design Amritsar, bathroom renovation Amritsar, office interiors Amritsar">
+  <meta name="description" content="Planning a home or workspace in Amritsar? GK Interior designs thoughtful interiors, modular kitchens, bedrooms, bathrooms, storage, lighting, and commercial spaces around you.">
   <link rel="canonical" href="https://gkinterior.vercel.app/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%239a7958%22/%3E%3Ctext x=%2232%22 y=%2243%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2228%22 fill=%22white%22%3EGK%3C/text%3E%3C/svg%3E">
   <meta property="og:site_name" content="GK Interior">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gkinterior.vercel.app/">
   <meta property="og:title" content="GK Interior | Interior Designer in Amritsar">
-  <meta property="og:description" content="Modern home interiors, modular kitchens, wardrobes, bathrooms, and commercial interiors designed for homes and businesses in Amritsar.">
+  <meta property="og:description" content="Planning a home or workspace in Amritsar? Explore thoughtful interiors, modular kitchens, bedrooms, bathrooms, storage, lighting, and commercial design by GK Interior.">
   <meta property="og:image" content="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=85">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Modern interior design project by GK Interior in Amritsar">
+  <meta property="og:image:alt" content="Contemporary living room inspiration for an Amritsar home">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GK Interior | Interior Designer in Amritsar">
-  <meta name="twitter:description" content="Modern home interiors, modular kitchens, wardrobes, bathrooms, and commercial interiors designed for homes and businesses in Amritsar.">
+  <meta name="twitter:description" content="Planning a home or workspace in Amritsar? Explore thoughtful interiors, modular kitchens, bedrooms, bathrooms, storage, lighting, and commercial design by GK Interior.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=85">
-  <meta name="twitter:image:alt" content="Modern interior design project by GK Interior in Amritsar">
+  <meta name="twitter:image:alt" content="Contemporary living room inspiration for an Amritsar home">
   <meta name="color-scheme" content="light">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,7 +66,7 @@
     .skip-link:focus { transform: translateY(0); }
 
     .site-nav { position: fixed; z-index: 20; inset: 0 0 auto; display: flex; height: 5.6rem; align-items: center; justify-content: space-between; padding: 0 var(--gutter); color: var(--paper); transition: color .3s, background .3s, border-color .3s; }
-    .site-nav.scrolled { color: var(--ink); border-bottom: 1px solid var(--line); background: rgba(246, 243, 237, .96); backdrop-filter: blur(12px); }
+    .site-nav.scrolled { color: var(--ink); border-bottom: 1px solid var(--line); background: rgba(246, 243, 237, .96); }
     .brand { position: relative; z-index: 22; font-family: var(--serif); font-size: 1.12rem; font-weight: 600; letter-spacing: .17em; text-decoration: none; }
     .nav-links { display: flex; align-items: center; justify-content: flex-end; gap: clamp(1rem, 2.5vw, 2.5rem); }
     .nav-links a { font-size: .84rem; text-decoration: none; }
@@ -84,6 +83,7 @@
     .menu-toggle span { position: absolute; left: .68rem; width: 1.35rem; height: 1px; background: currentColor; transition: transform .25s; }
     .menu-toggle span:first-child { top: 1.05rem; }
     .menu-toggle span:last-child { top: 1.62rem; }
+    .menu-toggle[aria-expanded="true"] { color: var(--paper); }
     .menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(.28rem) rotate(45deg); }
     .menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-.28rem) rotate(-45deg); }
 
@@ -160,6 +160,12 @@
     .process-list li > span { color: var(--bronze); font-size: .8rem; }
     .process-list h3 { margin: 0 0 .4rem; font-size: clamp(1.35rem, 2.2vw, 1.9rem); }
     .process-list p { margin: 0; color: var(--muted); font-size: .9rem; }
+
+    .faq { background: var(--paper); }
+    .faq-list { max-width: 58rem; margin-left: auto; border-top: 1px solid var(--line); }
+    .faq-list details { border-bottom: 1px solid var(--line); }
+    .faq-list summary { padding: 1.35rem 2rem 1.35rem 0; font-family: var(--serif); font-size: clamp(1.3rem, 2.4vw, 1.8rem); cursor: pointer; }
+    .faq-list details p { margin: 0; padding: 0 2rem 1.35rem 0; color: var(--muted); }
 
     .journal { background: var(--sand); }
     .journal-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; }
@@ -265,17 +271,18 @@
       <a href="#services">Services</a>
       <a href="#projects">Projects</a>
       <a href="#process">Process</a>
+      <a href="#faqs">FAQs</a>
       <a class="nav-cta" href="#contact">Let’s talk</a>
     </div>
   </nav>
 
   <main id="main">
     <header class="hero" id="home">
-      <img class="hero-image" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=2000&amp;h=1350&amp;q=85" srcset="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=900&amp;h=608&amp;q=85 900w, https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1600&amp;h=1080&amp;q=85 1600w, https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=2000&amp;h=1350&amp;q=85 2000w" sizes="100vw" width="2000" height="1350" alt="Interior designer in Amritsar creating modern home interiors" fetchpriority="high" loading="eager" decoding="async">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=2000&amp;h=1350&amp;q=85" srcset="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=900&amp;h=608&amp;q=85 900w, https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1600&amp;h=1080&amp;q=85 1600w, https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=2000&amp;h=1350&amp;q=85 2000w" sizes="100vw" width="2000" height="1350" alt="Contemporary living room with warm, natural finishes" fetchpriority="high" loading="eager" decoding="async">
       <div class="hero-content">
         <p class="eyebrow">GK Interior · Interior Designer in Amritsar</p>
-        <h1>Home Interiors, Designed Around You.</h1>
-        <p class="hero-copy">GK Interior is a trusted interior designer in Amritsar, helping homeowners and businesses create modern, functional spaces that feel elegant and personal.</p>
+        <h1>Interior Design in Amritsar, Made for Everyday Living.</h1>
+        <p class="hero-copy">From a home that needs a fresh start to a kitchen that works harder, we shape thoughtful interiors around the way you live and work.</p>
         <div class="hero-actions">
           <a class="button button-light" href="#projects">Explore Our Projects</a>
           <a class="button" href="#contact">Book a Consultation</a>
@@ -291,25 +298,26 @@
       </video>
       <div class="about-copy" data-reveal>
         <p class="eyebrow">The studio</p>
-        <h2>Considered living, beautifully realised.</h2>
-        <p class="lead">GK Interior brings a thoughtful approach to home interior design, shaped around the people who live and work in each space.</p>
-        <p>From the first conversation to the finishing touches, we balance comfort, clarity, and a refined eye for detail. Whether you are planning a complete home or refining a single room, each design begins with your needs.</p>
+        <h2>Spaces that feel like they belong to you.</h2>
+        <p class="lead">We design homes and workspaces in Amritsar with equal care for how they look and how they feel to use every day.</p>
+        <p>We start by listening: what you need, what you love, and what is not working in your space. Then we bring the layout, finishes, lighting, and storage together into a clear design direction—whether you are planning a whole home or one room.</p>
         <a class="text-link" href="#process">Discover our approach&nbsp; ↗</a>
       </div>
     </section>
 
     <section class="section services" id="services">
       <div class="section-intro" data-reveal>
-        <div><p class="eyebrow">What we do</p><h2>Interior services in Amritsar for modern living.</h2></div>
-        <p>GK Interior delivers complete interior design services across Amritsar, helping clients create stylish homes, practical kitchens, and functional workspaces that match their lifestyle.</p>
+        <div><p class="eyebrow">What we do</p><h2>Interior design services in Amritsar.</h2></div>
+        <p>From the first layout idea to the finishing details, we help Amritsar homeowners and businesses make their spaces more personal, practical, and comfortable.</p>
       </div>
       <div class="service-grid">
-        <article class="service" data-reveal><span class="service-number">01 / HOME</span><h3>Complete home interior design</h3><p>Full home interior design in Amritsar for villas, apartments, and custom residences with a refined modern aesthetic.</p></article>
-        <article class="service" data-reveal><span class="service-number">02 / LIVING</span><h3>Living room &amp; bedroom interiors</h3><p>Warm, elegant living rooms and bedrooms designed for comfort, storage, and easy daily living.</p></article>
-        <article class="service" data-reveal><span class="service-number">03 / KITCHEN</span><h3>Modular kitchen design</h3><p>Smart modular kitchen layouts in Amritsar with efficient storage, durable finishes, and practical workflow.</p></article>
-        <article class="service" data-reveal><span class="service-number">04 / DETAIL</span><h3>False ceiling &amp; lighting design</h3><p>Creative false ceilings and lighting design that illuminate rooms beautifully and add architectural character.</p></article>
-        <article class="service" data-reveal><span class="service-number">05 / STORAGE</span><h3>Wardrobe &amp; storage solutions</h3><p>Custom wardrobes, utility storage, and built-ins designed to maximize space without compromising style.</p></article>
-        <article class="service" data-reveal><span class="service-number">06 / WORK</span><h3>Commercial interior design</h3><p>Professional office and commercial interiors designed to feel welcoming, efficient, and brand aligned.</p></article>
+        <article class="service" data-reveal><span class="service-number">01 / HOME</span><h3>Complete home interiors</h3><p>Bring the rooms in your Amritsar home together with a considered plan for layout, finishes, lighting, and storage.</p></article>
+        <article class="service" data-reveal><span class="service-number">02 / LIVING</span><h3>Living rooms &amp; bedrooms</h3><p>Comfortable, personal spaces with considered colours, useful storage, and details that make everyday routines easier.</p></article>
+        <article class="service" data-reveal><span class="service-number">03 / KITCHEN</span><h3>Modular kitchen design</h3><p>Plan a modular kitchen around your cooking habits, with a practical layout, accessible storage, and finishes chosen for daily use.</p></article>
+        <article class="service" data-reveal><span class="service-number">04 / BATH</span><h3>Bathroom design</h3><p>Make the most of your bathroom with a thoughtful layout, well-chosen materials, and lighting suited to the space.</p></article>
+        <article class="service" data-reveal><span class="service-number">05 / DETAIL</span><h3>False ceilings &amp; lighting</h3><p>Layer ambient and task lighting with ceiling details that add character without losing sight of how the room is used.</p></article>
+        <article class="service" data-reveal><span class="service-number">06 / STORAGE</span><h3>Wardrobes &amp; storage</h3><p>Plan wardrobes, utility storage, and built-ins to make better use of available space and keep everyday essentials close at hand.</p></article>
+        <article class="service" data-reveal><span class="service-number">07 / WORK</span><h3>Office &amp; commercial interiors</h3><p>Workspaces and customer-facing interiors planned around your team, your daily operations, and the impression you want to create.</p></article>
       </div>
     </section>
 
@@ -317,7 +325,7 @@
       <div class="projects-heading" data-reveal>
         <div class="section-intro">
           <div><p class="eyebrow">Selected spaces</p><h2>Ideas for living well.</h2></div>
-          <p>A visual collection of interior directions across rooms, materials, and moods.</p>
+          <p>Browse room ideas, material combinations, and details that can help you picture what feels right for your home.</p>
         </div>
         <div class="filter-list" role="group" aria-label="Filter image collection">
           <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All spaces</button>
@@ -328,9 +336,6 @@
         </div>
       </div>
       <div class="project-grid" id="project-grid">
-        <button class="project-card" type="button" data-category="bathroom" data-title="Bright tiled bathroom" aria-label="View bright tiled bathroom image">
-          <span class="project-image-wrap"><img class="project-image" src="assets/projects/bathroom-tiled-sink.png" width="768" height="1365" alt="Bright tiled bathroom with a pedestal sink and arched mirror" loading="lazy" decoding="async"><span class="image-open" aria-hidden="true">↗</span></span><span class="project-caption"><strong>Bright tiled bathroom</strong><span>01 / 12</span></span>
-        </button>
         <button class="project-card" type="button" data-category="living" data-title="Warm wood-slat TV wall" aria-label="View warm wood-slat TV wall image">
           <span class="project-image-wrap"><img class="project-image" src="assets/projects/wood-slat-tv-wall.jpg" width="768" height="1376" alt="Warm wood-slat feature wall with an inset television and accent lighting" loading="lazy" decoding="async"><span class="image-open" aria-hidden="true">↗</span></span><span class="project-caption"><strong>Warm wood-slat TV wall</strong><span>02 / 12</span></span>
         </button>
@@ -365,13 +370,13 @@
           <span class="project-image-wrap"><img class="project-image" src="assets/projects/luminous-ceiling-feature.jpg" width="1086" height="1448" alt="Feature wall with golden leaf patterns and a circular wood ceiling fan medallion with ambient blue halo lighting" loading="lazy" decoding="async"><span class="image-open" aria-hidden="true">↗</span></span><span class="project-caption"><strong>Luminous ceiling &amp; feature wall</strong><span>12 / 12</span></span>
         </button>
       </div>
-      <p class="image-disclaimer">A selection of interior images shared by GK Interior. Contact the studio for project details.</p>
+      <p class="image-disclaimer">These images are design references, not a record of completed GK Interior projects. Contact us to discuss ideas for your own space.</p>
     </section>
 
     <section class="section transform" aria-labelledby="transform-heading">
       <div class="section-intro" data-reveal>
         <div><p class="eyebrow">A visual design study</p><h2 id="transform-heading">Before &amp; after, reimagined.</h2></div>
-        <p>One editorial concept, shown as a muted starting point and a brighter bathroom design direction for contemporary homes in Amritsar.</p>
+        <p>This bathroom design study explores how a lighter palette and considered details can change the feel of a room. It is an illustration, not a completed renovation.</p>
       </div>
       <div class="transform-grid" data-reveal>
         <figure class="transform-figure before">
@@ -387,19 +392,44 @@
     </section>
 
     <section class="section process" id="process">
-      <div class="process-intro" data-reveal><p class="eyebrow">From brief to finish</p><h2>A clear path to your space.</h2><p>Good design starts with listening. We work through each step with care, keeping your needs and priorities at the centre.</p></div>
+      <div class="process-intro" data-reveal><p class="eyebrow">From brief to finish</p><h2>A clear path to your space.</h2><p>Starting an interior project in Amritsar should feel manageable. We begin with a conversation and take the design one considered step at a time.</p></div>
       <ol class="process-list">
-        <li data-reveal><span>01</span><div><h3>Listen &amp; discover</h3><p>We get to know your space, needs, style, and project priorities.</p></div></li>
-        <li data-reveal><span>02</span><div><h3>Plan &amp; imagine</h3><p>We shape a thoughtful direction for the layout, materials, and feel.</p></div></li>
-        <li data-reveal><span>03</span><div><h3>Refine the details</h3><p>We bring the selections together into a cohesive design plan.</p></div></li>
-        <li data-reveal><span>04</span><div><h3>Bring it to life</h3><p>We coordinate the next steps with clarity through to the finishing touches.</p></div></li>
+        <li data-reveal><span>01</span><div><h3>Talk through your plans</h3><p>Tell us about the space, who uses it, what you need, and what matters most to you.</p></div></li>
+        <li data-reveal><span>02</span><div><h3>Explore the design</h3><p>We develop a direction for the layout, materials, colours, and lighting based on your brief.</p></div></li>
+        <li data-reveal><span>03</span><div><h3>Work through the details</h3><p>We refine the selections so the different parts of your space feel considered together.</p></div></li>
+        <li data-reveal><span>04</span><div><h3>Plan the next steps</h3><p>We talk through what comes next for your project and how to move from the design towards the finished space.</p></div></li>
       </ol>
+    </section>
+
+    <section class="section faq" id="faqs">
+      <div class="section-intro" data-reveal>
+        <div><p class="eyebrow">Good to know</p><h2>Interior design in Amritsar: your questions.</h2></div>
+        <p>A few useful details to help you decide where to begin with your home or workspace.</p>
+      </div>
+      <div class="faq-list" data-reveal>
+        <details>
+          <summary>What interior design services does GK Interior offer in Amritsar?</summary>
+          <p>We work on complete home interiors, living rooms, bedrooms, modular kitchens, bathrooms, wardrobes and storage, false ceilings, lighting, and office or commercial spaces. Tell us what you have in mind and we can discuss a suitable starting point.</p>
+        </details>
+        <details>
+          <summary>Can I get help with just one room?</summary>
+          <p>Yes. You can get in touch about a single room as well as a larger home or commercial project. Sharing the room dimensions, a few photos, and what you would like to change is a helpful way to start the conversation.</p>
+        </details>
+        <details>
+          <summary>How do I get started on an interior project?</summary>
+          <p>Use the inquiry form below to tell us about your space and preferred service. We can then start a conversation about your requirements and the next steps for your project in Amritsar.</p>
+        </details>
+        <details>
+          <summary>Do you design both homes and workspaces?</summary>
+          <p>Yes. GK Interior takes on residential interiors as well as office and commercial design. The plan begins with how the space needs to work for the people who use it.</p>
+        </details>
+      </div>
     </section>
 
     <section class="section journal" id="journal">
       <div class="section-intro" data-reveal>
         <div><p class="eyebrow">Follow along</p><h2>A visual journal.</h2></div>
-        <p>Explore the materials, rooms, and small details that inspire the GK Interior point of view.</p>
+        <p>Explore the materials, room ideas, and small details that inform our design approach.</p>
       </div>
       <div class="journal-grid" data-reveal>
         <a class="journal-tile" href="https://www.instagram.com/gk__interior_/" target="_blank" rel="noopener noreferrer" aria-label="Visit GK Interior on Instagram — living room inspiration">
@@ -415,18 +445,18 @@
           <img src="assets/journal/luminous-ceiling-feature.jpg" width="1086" height="1448" alt="Illuminated circular ceiling medallion with halo lighting and gold-leaf marble wall" loading="lazy" decoding="async"><span class="journal-label">Light &amp; texture</span>
         </a>
       </div>
-      <p class="journal-note">An editorial curation of recent projects and artisan craftsmanship by GK Interior. Follow our journal for new installations, material palettes, and design details.</p>
+      <p class="journal-note">A collection of design inspiration, material palettes, and room details. Follow along for ideas to bring into your own space.</p>
       <a class="text-link" href="https://www.instagram.com/gk__interior_/" target="_blank" rel="noopener noreferrer">Visit GK Interior on Instagram&nbsp; ↗</a>
     </section>
 
     <section class="section why">
       <div class="why-grid">
-        <div data-reveal><p class="eyebrow">Why GK Interior</p><h2>Personal, practical, considered.</h2><p>A space should look beautiful, feel right, and work for real life. That is the balance we bring to every design conversation.</p></div>
+        <div data-reveal><p class="eyebrow">Why GK Interior</p><h2>Personal, practical, considered.</h2>        <p>A space should look beautiful, feel comfortable, and work for real life. That balance guides every conversation about a home or workspace in Amritsar.</p></div>
         <ul class="why-list" data-reveal>
-          <li>Designed around your way of living <span>↗</span></li>
-          <li>Careful attention to detail <span>↗</span></li>
-          <li>Thoughtful choices for your priorities <span>↗</span></li>
-          <li>Clear communication from the first conversation <span>↗</span></li>
+          <li>A plan shaped around how you use your space <span>↗</span></li>
+          <li>Materials and details chosen with care <span>↗</span></li>
+          <li>Room for your needs, style, and priorities <span>↗</span></li>
+          <li>A clear conversation at every step <span>↗</span></li>
         </ul>
       </div>
     </section>
@@ -436,7 +466,7 @@
         <div class="contact-copy" data-reveal>
           <p class="eyebrow">Start a conversation</p>
           <h2>Tell us about your space.</h2>
-          <p>Share a little about your home, apartment, office, or renovation project and start a conversation with GK Interior in Amritsar.</p>
+          <p>Planning a home, apartment, office, or renovation in Amritsar? Tell us what you are working on, what you need, and which service you have in mind. We will take it from there together.</p>
           <div class="contact-links">
             <a href="https://www.instagram.com/gk__interior_/" target="_blank" rel="noopener noreferrer">Message us on Instagram&nbsp; ↗</a>
           </div>
@@ -451,7 +481,7 @@
             <div class="field"><label for="property">Property type</label><select id="property" name="property_type" required aria-describedby="property-error"><option value="">Choose a property type</option><option>Apartment</option><option>Independent home</option><option>Office or commercial</option><option>Other</option></select><div class="form-error" id="property-error"></div></div>
           </div>
           <div class="form-row">
-            <div class="field"><label for="service">Preferred service</label><select id="service" name="preferred_service" required aria-describedby="service-error"><option value="">Choose a service</option><option>Complete home interiors</option><option>Living room or bedroom</option><option>Modular kitchen</option><option>Lighting or false ceiling</option><option>Wardrobes and storage</option><option>Commercial or office</option><option>Not sure yet</option></select><div class="form-error" id="service-error"></div></div>
+            <div class="field"><label for="service">Preferred service</label><select id="service" name="preferred_service" required aria-describedby="service-error"><option value="">Choose a service</option><option>Complete home interiors</option><option>Living room or bedroom</option><option>Modular kitchen</option><option>Bathroom design</option><option>Lighting or false ceiling</option><option>Wardrobes and storage</option><option>Commercial or office</option><option>Not sure yet</option></select><div class="form-error" id="service-error"></div></div>
             <div class="field"><label for="budget">Approximate budget</label><select id="budget" name="budget"><option value="">Prefer to discuss</option><option>Under ₹10 lakh</option><option>₹10–25 lakh</option><option>₹25–50 lakh</option><option>₹50 lakh and above</option></select></div>
           </div>
           <div class="field"><label for="details">Project details</label><textarea id="details" name="project_details" required minlength="10" placeholder="What would you like to create?" aria-describedby="details-error"></textarea><div class="form-error" id="details-error"></div></div>
